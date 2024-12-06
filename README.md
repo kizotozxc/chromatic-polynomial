@@ -1,12 +1,11 @@
 # Chromatic Polynomial Calculation
 
 ## Introduction
-This program calculates the chromatic polynomial $\chi_G$ of a graph $G$ using recursion. The value $\chi_G(x)$ is the number of those colorings of the vertices of $G$ using $x$ colors, for which no two adjacent vertices have the same color.
+This program calculates the chromatic polynomial $\chi_G$ of a graph $G$ using recursion. The value $\chi_G(x)$ in the number of those colorings of the vertices of $G$ using $x$ colors, for which no two adjacent vertices have the same color.
 
 ### The program performs the following:
-1. Input a connected graph in the form a set of edges
-2. Computes the chromatic polynomial for a constructed graph.
-3. Outputs the result as a polynomial expression.
+1. Input a connected graph.
+2. Outputs the result as a polynomial expression.
 
 ## Getting Started
 

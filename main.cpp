@@ -101,7 +101,10 @@ int main() {
   std::cout << "Enter the edges (u v):" << std::endl;
   for (int i = 0; i < numEdges; ++i) {
     int u, v;
-    std::cin >> u >> v;
+    std::cout << "Enter the first vertex of edge (u" << i+1 << "): ";
+    std::cin >> u;
+    std::cout << "Enter the second vertex of edge (v" << i+1 << "): ";
+    std::cin >> v;
     edges.emplace_back(u, v);
   }
 
